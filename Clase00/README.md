@@ -40,3 +40,38 @@
 
 3. **Manejo Básico de Errores y Excepciones:**
    - Introducción al manejo de errores y excepciones en Java, destacando la importancia de la detección y gestión de problemas durante la ejecución.
+
+## Presentacion
+
+Los temas antes listados, se encuentran mayormente en la siguiente presentacion en google docs: [Link a presentacion](https://docs.google.com/presentation/d/1-edwcxWiN3N7GAwxK75A9Xnze2ciOSewfojJpPVxAs0/edit#slide=id.g2b9c5c5e395_0_239)
+
+## Codigo y ejemplos
+
+La manera en que muchas veces somos presentados con un nuevo lenguaje de programacion es usando un "Hello World", que es el programa mas simple que se encarga de mostrar "Hello World" en la pantalla, para **Java** el "Hello World" no luce tan sencillo y no es tan intuitivo, pero no te asustes, vamos a ir aprendiendo que significa cada una de las partes del codigo:
+
+```java
+public class Hello {
+  public static void main(String[] args) {
+    System.out.print("Hello World!");
+  }
+}
+```
+
+Para que este codigo pueda funcionar en nuestra computadora, debemos tener el JDK configurado (en la presentacion viene mencion a como se puede configurar), guardar el codigo en un archivo llamado `Hello.java` y en una terminal/consola posicionarnos en la carpeta donde tengamos el codigo, despues escribiremos:
+
+```shell
+javac Hello.java
+```
+
+
+Si todo es correcto, en la misma carpeta/directorio encontraremos que ahora tenemos un archivo llamado  `Hello.class`. Para ejecutar nuestro programa usaremos:
+
+```shell
+java Hello
+```
+
+Nota que no agregamos el `.class` al ejecutar el programa. En nuestra terminal deberiamos ver: `Hello World!`
+
+## Conclusiones
+
+Entendimos un poco de la historia de java y logramos compilar y ejecutar nuestro primer programa en Java!
