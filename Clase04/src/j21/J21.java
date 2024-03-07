@@ -15,6 +15,8 @@ public class J21 {
             case CodigoFacilitoPerson alumnee:
                 System.out.println("Coooool ⌛" + alumnee.name() + " has " + alumnee.courses().size());
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + p1);
         }
     }
 }
