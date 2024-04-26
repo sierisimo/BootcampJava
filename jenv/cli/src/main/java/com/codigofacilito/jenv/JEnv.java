@@ -23,11 +23,8 @@ public class JEnv implements Callable<Integer> {
 
     private final FileListing fileListing = new FileListing();
 
-    private final Logger logger;
-
     @Override
     public Integer call() throws Exception {
-        logger.log(Level.WARNING, "Starting handling of paramerters");
         if(isListing){
             var searchFileResult = fileListing.getFiles(".", ".env");
             return switch (searchFileResult){
