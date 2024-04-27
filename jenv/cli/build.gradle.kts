@@ -10,6 +10,7 @@ repositories {
 
 dependencies {
     implementation(project(":file-searcher"))
+    implementation(project(":env-parser"))
 
     implementation(libs.picocli)
     annotationProcessor(libs.picocli.codegen)
